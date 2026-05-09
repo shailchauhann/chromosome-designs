@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" role="img" aria-labelledby="title desc">
+  <title id="title">Dinosaur park environment</title>
+  <desc id="desc">A dinosaur park with a large skeletal sculpture under cinematic lighting.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#090908"/>
+      <stop offset="0.52" stop-color="#2b2116"/>
+      <stop offset="1" stop-color="#55401d"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="900" fill="url(#bg)"/>
+  <circle cx="870" cy="170" r="120" fill="#c5963f" opacity="0.24"/>
+  <path d="M0 620c180-68 340-73 480-16 192 78 426 56 720-78v374H0z" fill="#0e0d0b"/>
+  <g transform="translate(195 270)" fill="none" stroke="#d4bd89" stroke-width="16" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M95 260c112-128 256-184 434-166 128 13 238 70 330 170"/>
+    <path d="M520 95c-68 94-140 164-216 210"/>
+    <path d="M590 110c-40 98-76 177-110 238"/>
+    <path d="M690 154c-17 76-34 139-51 190"/>
+    <path d="M790 216c-24 43-48 82-73 116"/>
+    <path d="M840 266l112-48"/>
+    <path d="M880 250l88 68"/>
+    <path d="M120 256c-50-22-92-24-126-8"/>
+  </g>
+  <g stroke="#c99645" stroke-width="4" opacity="0.42">
+    <path d="M120 640h920"/>
+    <path d="M210 640v120M380 640v120M550 640v120M720 640v120M890 640v120"/>
+  </g>
+  <g fill="#eee5d3" opacity="0.76">
+    <rect x="110" y="638" width="150" height="90" rx="2"/>
+    <rect x="862" y="618" width="160" height="108" rx="2"/>
+  </g>
+</svg>

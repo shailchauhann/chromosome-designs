@@ -1,0 +1,156 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Portfolio of Chromosome Designs projects across museums, wildlife interpretation, science exhibits, public sculptures, theme parks, and AR/VR experiences.">
+    <title>Projects | Chromosome Designs</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+    <header class="site-header compact" data-header>
+      <a class="brand" href="index.html" aria-label="Chromosome Designs home"><span class="brand-symbol" aria-hidden="true"></span><span>Chromosome <strong>Designs</strong></span></a>
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav" data-nav-toggle><span></span><span></span><span class="sr-only">Open navigation</span></button>
+      <nav class="site-nav" id="site-nav" data-nav>
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="projects.html" aria-current="page">Projects</a>
+        <a href="services.html">Services</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </header>
+
+    <main id="main" class="page-shell">
+      <section class="page-hero">
+        <div class="reveal">
+          <p class="eyebrow">Portfolio</p>
+          <h1>Large-scale cultural work, designed as immersive public systems.</h1>
+        </div>
+      </section>
+
+      <section class="section project-filters" aria-label="Project filters">
+        <div class="filter-bar reveal" data-filter-bar>
+          <button class="filter-button active" type="button" data-filter="all">All work</button>
+          <button class="filter-button" type="button" data-filter="zoo">Zoo interpretation</button>
+          <button class="filter-button" type="button" data-filter="science">Science city</button>
+          <button class="filter-button" type="button" data-filter="dinosaur">Dinosaur parks</button>
+          <button class="filter-button" type="button" data-filter="sculpture">Public sculptures</button>
+          <button class="filter-button" type="button" data-filter="digital">AR/VR</button>
+        </div>
+      </section>
+
+      <section class="project-masonry" aria-label="Project showcase">
+        <article class="portfolio-card tall reveal" data-category="science" data-project-card>
+          <img src="assets/images/science-city.svg" alt="Science museum planetary exhibit">
+          <div>
+            <span class="work-meta">Science city exhibits</span>
+            <h2>National Science Center</h2>
+            <p>Interactive galleries, visitor sequencing, educational hardware, and immersive science storytelling.</p>
+            <a class="text-link" href="project-detail.html?project=science-city">Open case study <span aria-hidden="true">-></span></a>
+            <button class="mini-link open-case" type="button" data-project="science-city">Preview story</button>
+          </div>
+        </article>
+        <article class="portfolio-card reveal" data-category="zoo" data-project-card>
+          <img src="assets/images/wildlife-sanctuary.svg" alt="Wildlife interpretation habitat installation">
+          <div>
+            <span class="work-meta">Wildlife interpretation</span>
+            <h2>Wildlife Sanctuary Experience</h2>
+            <p>Natural habitat installations, species models, and interpretive field graphics.</p>
+            <a class="text-link" href="project-detail.html?project=wildlife-sanctuary">Open case study <span aria-hidden="true">-></span></a>
+            <button class="mini-link open-case" type="button" data-project="wildlife-sanctuary">Preview story</button>
+          </div>
+        </article>
+        <article class="portfolio-card reveal" data-category="dinosaur" data-project-card>
+          <img src="assets/images/dinosaur-park.svg" alt="Dinosaur park skeletal installation">
+          <div>
+            <span class="work-meta">Dinosaur parks</span>
+            <h2>Dinosaur Discovery Park</h2>
+            <p>Large-format prehistoric models, timelines, fossil interpretation, and theatrical landscape moments.</p>
+            <a class="text-link" href="project-detail.html?project=dinosaur-park">Open case study <span aria-hidden="true">-></span></a>
+            <button class="mini-link open-case" type="button" data-project="dinosaur-park">Preview story</button>
+          </div>
+        </article>
+        <article class="portfolio-card wide reveal" data-category="zoo" data-project-card>
+          <img src="assets/images/interpretation-center.svg" alt="Forest interpretation center walkway">
+          <div>
+            <span class="work-meta">Interpretation centers</span>
+            <h2>Forest Interpretation Centre</h2>
+            <p>Indoor-outdoor visitor flow, exhibit panels, tactile moments, and public learning zones.</p>
+            <a class="text-link" href="project-detail.html?project=interpretation-center">Open case study <span aria-hidden="true">-></span></a>
+            <button class="mini-link open-case" type="button" data-project="interpretation-center">Preview story</button>
+          </div>
+        </article>
+        <article class="portfolio-card reveal" data-category="sculpture" data-project-card>
+          <img src="assets/images/public-sculpture.svg" alt="Public sculpture plaza">
+          <div>
+            <span class="work-meta">Public sculptures</span>
+            <h2>Civic Sculpture Plaza</h2>
+            <p>Landmark sculpture, civic identity, lighting strategy, and durable public interaction.</p>
+            <a class="text-link" href="project-detail.html?project=public-sculpture">Open case study <span aria-hidden="true">-></span></a>
+            <button class="mini-link open-case" type="button" data-project="public-sculpture">Preview story</button>
+          </div>
+        </article>
+        <article class="portfolio-card tall reveal" data-category="digital" data-project-card>
+          <img src="assets/images/ar-vr-lab.svg" alt="AR and VR interactive learning lab">
+          <div>
+            <span class="work-meta">AR/VR experiences</span>
+            <h2>Immersive Learning Lab</h2>
+            <p>Mixed reality interpretation, kiosk interfaces, interactive software, and multi-language content.</p>
+            <a class="text-link" href="project-detail.html?project=ar-vr-lab">Open case study <span aria-hidden="true">-></span></a>
+            <button class="mini-link open-case" type="button" data-project="ar-vr-lab">Preview story</button>
+          </div>
+        </article>
+        <article class="portfolio-card reveal" data-category="dinosaur sculpture" data-project-card>
+          <img src="assets/images/theme-park.svg" alt="Theme park immersive zone">
+          <div>
+            <span class="work-meta">Theme parks</span>
+            <h2>Mythic Landscape Zone</h2>
+            <p>Immersive theming, scenic fabrication, wayfinding, interactive stops, and public photo moments.</p>
+            <a class="text-link" href="project-detail.html?project=theme-park">Open case study <span aria-hidden="true">-></span></a>
+            <button class="mini-link open-case" type="button" data-project="theme-park">Preview story</button>
+          </div>
+        </article>
+      </section>
+
+      <section class="section before-after">
+        <div class="section-head reveal">
+          <p class="eyebrow">Case study anatomy</p>
+          <h2>Every project page moves from challenge to built impact.</h2>
+        </div>
+        <div class="comparison-grid reveal">
+          <div><span>Before</span><p>Briefs often begin as fragmented content, underused sites, complex public mandates, or subjects that feel too technical for general audiences.</p></div>
+          <div><span>After</span><p>We convert those inputs into a clear visitor journey: entry sequence, primary story, tactile engagement, digital interaction, memory point, and institutional handover.</p></div>
+        </div>
+      </section>
+    </main>
+
+    <div class="case-overlay" data-case-overlay aria-hidden="true">
+      <div class="case-panel" role="dialog" aria-modal="true" aria-labelledby="caseTitle">
+        <button class="modal-close" type="button" data-close-case aria-label="Close case preview">x</button>
+        <img data-case-image src="assets/images/science-city.svg" alt="">
+        <div>
+          <p class="eyebrow" data-case-category>Science city exhibits</p>
+          <h2 id="caseTitle" data-case-title>National Science Center</h2>
+          <p data-case-description>Interactive galleries for public science learning.</p>
+          <dl class="impact-list">
+            <div><dt>Scope</dt><dd data-case-scope>Exhibit design, interactive software, fabrication</dd></div>
+            <div><dt>Impact</dt><dd data-case-impact>Higher visitor dwell time and clearer learning sequence</dd></div>
+          </dl>
+          <a class="button button-solid" data-case-link href="project-detail.html?project=science-city">Full case study</a>
+        </div>
+      </div>
+    </div>
+
+    <footer class="site-footer">
+      <div><a class="brand footer-brand" href="index.html"><span class="brand-symbol" aria-hidden="true"></span><span>Chromosome <strong>Designs</strong></span></a><p>Immersive exhibits, interpretation centers, public installations, and educational environments.</p></div>
+      <nav aria-label="Footer links"><a href="about.html">About</a><a href="projects.html">Projects</a><a href="services.html">Services</a><a href="contact.html">Contact</a></nav>
+      <address><a href="mailto:info@chromosomedesigns.com">info@chromosomedesigns.com</a><a href="tel:+919924323897">+91 99243 23897</a><span>Ahmedabad, India</span></address>
+    </footer>
+    <button class="to-top" type="button" data-to-top aria-label="Back to top">^</button>
+    <script src="script.js"></script>
+  </body>
+</html>

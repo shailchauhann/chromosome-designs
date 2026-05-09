@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" role="img" aria-labelledby="title desc">
+  <title id="title">Theme park immersive zone</title>
+  <desc id="desc">A themed immersive attraction zone with architectural arches, light trails, and exhibit scenery.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#070807"/>
+      <stop offset="0.45" stop-color="#1a1b16"/>
+      <stop offset="1" stop-color="#51351b"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="900" fill="url(#bg)"/>
+  <path d="M0 660c172-72 350-90 534-54 236 46 458 12 666-100v394H0z" fill="#090908"/>
+  <g fill="none" stroke-linecap="round">
+    <path d="M190 674c120-286 292-430 516-430s366 142 424 426" stroke="#c99645" stroke-width="26" opacity="0.68"/>
+    <path d="M310 677c82-198 212-298 389-298 178 0 288 98 332 294" stroke="#eee5d3" stroke-width="12" opacity="0.54"/>
+    <path d="M432 676c48-104 138-156 270-156s214 52 246 156" stroke="#42644a" stroke-width="22" opacity="0.72"/>
+  </g>
+  <g stroke="#d9bd71" stroke-width="4" fill="none" opacity="0.42">
+    <path d="M135 720c230-80 432-102 606-66 123 26 230 22 324-11"/>
+    <path d="M160 765c228-54 414-68 558-42 126 23 238 19 336-12"/>
+  </g>
+  <g fill="#eee5d3" opacity="0.74">
+    <rect x="110" y="602" width="160" height="118" rx="3"/>
+    <rect x="920" y="590" width="165" height="128" rx="3"/>
+  </g>
+  <rect x="110" y="600" width="160" height="7" fill="#c99645"/>
+  <rect x="920" y="588" width="165" height="7" fill="#42644a"/>
+</svg>

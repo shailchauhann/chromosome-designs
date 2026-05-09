@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" role="img" aria-labelledby="title desc">
+  <title id="title">AR VR interactive lab</title>
+  <desc id="desc">An AR and VR interactive learning lab with holographic exhibit interfaces.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#080908"/>
+      <stop offset="0.5" stop-color="#14241c"/>
+      <stop offset="1" stop-color="#4a351f"/>
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="5" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  <rect width="1200" height="900" fill="url(#bg)"/>
+  <g opacity="0.23" stroke="#eee5d3" stroke-width="2">
+    <path d="M0 710h1200M0 610h1200M0 510h1200"/>
+    <path d="M110 900l280-520M410 900l110-520M715 900L610 380M1040 900L770 380"/>
+  </g>
+  <g transform="translate(310 235)" filter="url(#glow)">
+    <rect x="108" y="142" width="365" height="160" rx="54" fill="#0b0d0b" stroke="#d0b36a" stroke-width="12"/>
+    <rect x="150" y="175" width="118" height="80" rx="28" fill="#16251e" stroke="#42644a" stroke-width="8"/>
+    <rect x="312" y="175" width="118" height="80" rx="28" fill="#16251e" stroke="#42644a" stroke-width="8"/>
+    <path d="M108 222H28c-28 0-28 80 2 80h98M473 222h79c28 0 28 80-2 80h-98" fill="none" stroke="#d0b36a" stroke-width="12"/>
+  </g>
+  <g stroke="#c99645" stroke-width="4" fill="none" opacity="0.86">
+    <rect x="142" y="142" width="220" height="150"/>
+    <path d="M142 142l110 76 110-76M142 292l110-74 110 74"/>
+    <rect x="842" y="135" width="210" height="190"/>
+    <path d="M842 230h210M947 135v190"/>
+    <circle cx="600" cy="145" r="62"/>
+    <path d="M600 83v124M538 145h124"/>
+  </g>
+  <rect x="330" y="700" width="540" height="38" fill="#c99645" opacity="0.38"/>
+</svg>

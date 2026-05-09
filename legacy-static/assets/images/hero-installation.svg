@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1100" role="img" aria-labelledby="title desc">
+  <title id="title">Cinematic museum installation</title>
+  <desc id="desc">A dark museum gallery with a glowing suspended sculpture, interpretive panels, and visitors.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#070807"/>
+      <stop offset="0.48" stop-color="#161713"/>
+      <stop offset="1" stop-color="#233528"/>
+    </linearGradient>
+    <radialGradient id="goldGlow" cx="50%" cy="42%" r="43%">
+      <stop offset="0" stop-color="#d7b45f" stop-opacity="0.8"/>
+      <stop offset="0.48" stop-color="#9f6b2d" stop-opacity="0.22"/>
+      <stop offset="1" stop-color="#000" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="soft">
+      <feGaussianBlur stdDeviation="18"/>
+    </filter>
+  </defs>
+  <rect width="1600" height="1100" fill="url(#bg)"/>
+  <path d="M0 850h1600v250H0z" fill="#050505" opacity="0.5"/>
+  <g opacity="0.4" stroke="#eee5d3" stroke-width="2">
+    <path d="M130 180h1260M130 330h1260M130 480h1260M130 630h1260"/>
+    <path d="M190 80v760M445 40v860M755 80v800M1040 40v860M1370 80v780"/>
+  </g>
+  <g opacity="0.35">
+    <polygon points="0,110 620,0 520,1100 0,1100" fill="#111511"/>
+    <polygon points="1600,0 1160,70 1280,1100 1600,1100" fill="#0b0c0b"/>
+  </g>
+  <ellipse cx="760" cy="470" rx="540" ry="310" fill="url(#goldGlow)" filter="url(#soft)"/>
+  <g transform="translate(620 220)">
+    <path d="M156 35c91 12 172 74 198 165 33 116-36 241-150 281-124 43-262-35-300-161-35-118 32-246 148-283 33-11 68-14 104-2z" fill="#2f3d35" stroke="#d6ad54" stroke-width="9"/>
+    <path d="M142 78c68 7 132 54 151 126 25 89-28 184-115 214-94 32-198-27-226-122-27-91 24-188 112-215 25-8 52-10 78-3z" fill="#0e1511"/>
+    <path d="M72 126c64 58 125 60 184 6M50 236c81-23 160-20 236 10M96 356c37-58 55-127 52-207M228 86c-30 99-18 192 39 279" fill="none" stroke="#c99645" stroke-width="5" opacity="0.78"/>
+    <circle cx="161" cy="238" r="28" fill="#c99645"/>
+    <circle cx="161" cy="238" r="12" fill="#f4ead7"/>
+  </g>
+  <g fill="#eee5d3" opacity="0.78">
+    <rect x="330" y="610" width="132" height="180" rx="2"/>
+    <rect x="1130" y="585" width="180" height="230" rx="2"/>
+    <rect x="326" y="606" width="140" height="6" fill="#c99645"/>
+    <rect x="1126" y="581" width="188" height="6" fill="#42644a"/>
+  </g>
+  <g fill="#050505">
+    <circle cx="525" cy="805" r="22"/>
+    <path d="M509 830h32l20 114h-72z"/>
+    <circle cx="920" cy="805" r="20"/>
+    <path d="M907 827h30l18 105h-66z"/>
+    <circle cx="1000" cy="823" r="16"/>
+    <path d="M989 842h23l15 86h-53z"/>
+  </g>
+  <path d="M90 930c360-54 806-72 1400 0" fill="none" stroke="#c99645" stroke-width="3" opacity="0.32"/>
+</svg>

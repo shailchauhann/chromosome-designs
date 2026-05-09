@@ -1,0 +1,111 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    background: #070807;
+    color: #f4efe5;
+    letter-spacing: 0;
+  }
+
+  body::before {
+    content: "";
+    position: fixed;
+    inset: 0;
+    z-index: -1;
+    pointer-events: none;
+    background:
+      linear-gradient(90deg, rgba(244, 239, 229, 0.04) 1px, transparent 1px) 0 0 / 12.5% 100%,
+      radial-gradient(circle at 14% 18%, rgba(49, 81, 59, 0.22), transparent 30rem),
+      radial-gradient(circle at 85% 78%, rgba(116, 82, 57, 0.18), transparent 30rem);
+  }
+
+  h1,
+  h2,
+  h3 {
+    letter-spacing: 0;
+  }
+
+  :focus-visible {
+    outline: 2px solid #e2bd67;
+    outline-offset: 4px;
+  }
+}
+
+@layer components {
+  .brand-symbol {
+    position: relative;
+    display: inline-block;
+    width: 24px;
+    height: 36px;
+  }
+
+  .brand-symbol::before,
+  .brand-symbol::after {
+    content: "";
+    position: absolute;
+    top: 2px;
+    width: 8px;
+    height: 32px;
+    border-radius: 999px;
+    background: linear-gradient(180deg, #e2bd67, #c99b4d);
+  }
+
+  .brand-symbol::before {
+    left: 6px;
+    transform: rotate(-26deg);
+  }
+
+  .brand-symbol::after {
+    right: 6px;
+    transform: rotate(26deg);
+  }
+
+  .eyebrow {
+    @apply mb-5 text-xs font-bold uppercase tracking-[0.18em] text-gold;
+  }
+
+  .site-container {
+    width: min(calc(100% - 36px), 1320px);
+    margin-inline: auto;
+  }
+
+  @screen md {
+    .site-container {
+      width: min(calc(100% - 64px), 1320px);
+    }
+  }
+
+  .section-pad {
+    @apply py-20 lg:py-28;
+  }
+
+  .panel {
+    @apply border border-white/15 bg-panel/70 backdrop-blur-xl;
+  }
+
+  .button {
+    @apply inline-flex min-h-14 items-center justify-center gap-3 border border-white/15 px-6 font-bold transition hover:-translate-y-0.5 focus-visible:-translate-y-0.5;
+  }
+
+  .button-solid {
+    @apply border-gold bg-gold text-blacktop;
+  }
+
+  .button-ghost {
+    @apply bg-white/5 text-bone;
+  }
+
+  .text-link {
+    @apply inline-flex items-center gap-2 font-bold text-gold;
+  }
+
+  .work-overlay {
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.02), rgba(0, 0, 0, 0.84));
+  }
+}
